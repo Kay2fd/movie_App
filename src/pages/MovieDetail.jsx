@@ -44,7 +44,7 @@ const MovieDetail = () => {
                     <p className="mb-4">{movie.overview}</p>
                     <p className="text-lg font-medium mb-2">Popularity: {movie.popularity}</p>
                     <p className="text-lg font-medium mb-2">Release Date: {movie.release_date}</p>
-                    <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => {navigate(-1)}}>Back</button>
+                    <button className="bg-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded" onClick={() => {navigate(-1)}}>Back</button>
                 </div>
             </div>
         </div>
