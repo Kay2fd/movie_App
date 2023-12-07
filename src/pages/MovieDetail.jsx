@@ -31,8 +31,8 @@ const MovieDetail = () => {
     }, [id]);
 
     return (
-        <div className="container mx-auto py-8 px-4 bg-neutral-900 text-white">
-            <div className="flex flex-col md:flex-row">
+        <div className="bg-neutral-900 text-white">
+            <div className="flex mx-auto py-8 px-4">
                 <div className="md:w-1/3">
                     <img src={`https://image.tmdb.org/t/p/w400${movie.poster_path}`} alt={movie.title} className="rounded-lg shadow-md mb-4" />
                 </div>
